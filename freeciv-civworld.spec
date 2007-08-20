@@ -1,7 +1,7 @@
 %define civname	freeciv
 %define name	%{civname}-civworld
 %define version	1.14.0
-%define release 4mdk
+%define release %mkrel 4
 
 Name:		%{name}
 Summary:	Editor for FREE CIVilization clone
