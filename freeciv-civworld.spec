@@ -7,7 +7,6 @@ Name:		%{name}
 Summary:	Editor for FREE CIVilization clone
 Version:	%{version}
 Release:	%{release}
-Icon:		freeciv.gif 
 Source0:	ftp://ftp.freeciv.org/freeciv/stable/%{civname}-%{version}.tar.bz2
 Source1:	%{name}
 Source10:	%{name}.16.png
