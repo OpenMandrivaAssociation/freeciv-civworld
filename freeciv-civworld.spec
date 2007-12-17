@@ -22,7 +22,6 @@ BuildRequires:	libSDL_mixer-devel
 BuildRequires:	gtk+-devel >= 1.2
 BuildRequires:	ncurses-devel
 BuildRequires:	readline-devel
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 URL:		http://www.freeciv.org
 
 %description
