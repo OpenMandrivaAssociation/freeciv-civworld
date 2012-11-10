@@ -1,0 +1,11 @@
+--- freeciv-1.14.0/civworld/savegamehand.c	2003-07-31 23:12:46.000000000 +0200
++++ freeciv-1.14.0.new/civworld/savegamehand.c	2003-07-31 23:12:09.000000000 +0200
+@@ -136,7 +136,7 @@
+   if (game.nplayers > 0) {
+     game.save_options.save_players = 1; 
+     game.save_options.save_private_map = 1;
+-    +game.save_options.save_known = 1;
++    game.save_options.save_known = 1;
+   } else {
+     game.save_options.save_players = 0;
+     game.save_options.save_private_map = 0;
