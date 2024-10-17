@@ -23,7 +23,7 @@ BuildRequires:	gtk+-devel >= 1.2
 BuildRequires:	ncurses-devel
 BuildRequires:	readline-devel
 BuildRoot:	%{_tmppath}/%{name}-buildroot
-URL:		http://www.freeciv.org
+URL:		https://www.freeciv.org
 
 %description
 Freeciv is a multiplayer strategy game, released under the GNU General
