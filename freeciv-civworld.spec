@@ -17,6 +17,11 @@ Patch1:		%{name}-fix_typo.patch
 License:	GPL
 Group:		Games/Strategy
 Requires:	freeciv-data = %{version}
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	imlib-devel
 BuildRequires:	libSDL_mixer-devel
 BuildRequires:	gtk+-devel >= 1.2
